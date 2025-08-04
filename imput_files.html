@@ -6,10 +6,12 @@
     <title>Document</title>
 </head>
 <body>
+    
     <fieldset>
         <legend>
             contact form
         </legend>
+        <form >
         <label>First Name</label>
         <input type="text" placeholder="Enter First Name"> <br> <br>
         <label>Last Name</label>
@@ -31,7 +33,57 @@
         <label>Enter Password</label>
         <input type="password" placeholder="Enter Password" required> <br> <br>
 
-        <button>submit</button>
+        <label>Choose The Option</label>
+        <input type="checkbox">Mumbai
+        <input type="checkbox" checked>Pune
+        <input type="checkbox">Nagpur
+        <input type="checkbox">Bhusawal
+        <br><br>
+
+        <label>Choose The Gender</label>
+        <input type="radio" name="gender" checked>Male
+        <input type="radio" name="gender">fe male
+        <input type="radio" name="gender">Other
+        <br><br>
+
+        <label>Choose The Dish</label>
+        <select>
+            <option>Choose the Dish</option>
+            <option>Pav Bhaji</option>
+            <option>Misal Pav</option>
+            <option>Vada Pav</option>
+            <option>Paneer Tikka</option>
+        </select>
+        <br><br>
+
+        <label>Upload Images</label>
+        <input type="file">
+        <br><br>
+
+        <label>Multiple Images</label>
+        <input type="file" multiple>
+        <br><br>
+
+        <label>Choose Color</label>
+        <input type="color">
+        <br><br>
+
+        <label>Range</label>
+        <input type="range">
+        <br><br>
+
+        <label>Enter the Suggestion</label>
+        <textarea rows="5" cols="20" placeholder="Enter the Suggestion"></textarea>
+        <br><br>
+
+        <input type="submit">
+
+
+
+
+    <!--<button>submit</button>-->
+    </form>
     </fieldset>
+    
 </body>
 </html>
